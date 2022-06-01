@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/oceane-website/static/css/main.af153be8.css",
-    "main.js": "/oceane-website/static/js/main.7ba2cf15.js",
-    "static/media/pic1.jpg": "/oceane-website/static/media/pic1.4ec3bd3575d01559e5e2.jpg",
-    "index.html": "/oceane-website/index.html",
-    "main.af153be8.css.map": "/oceane-website/static/css/main.af153be8.css.map",
-    "main.7ba2cf15.js.map": "/oceane-website/static/js/main.7ba2cf15.js.map"
+    "main.css": "/portfolio.git/static/css/main.af153be8.css",
+    "main.js": "/portfolio.git/static/js/main.b6401221.js",
+    "static/media/pic1.jpg": "/portfolio.git/static/media/pic1.4ec3bd3575d01559e5e2.jpg",
+    "index.html": "/portfolio.git/index.html",
+    "main.af153be8.css.map": "/portfolio.git/static/css/main.af153be8.css.map",
+    "main.b6401221.js.map": "/portfolio.git/static/js/main.b6401221.js.map"
   },
   "entrypoints": [
     "static/css/main.af153be8.css",
-    "static/js/main.7ba2cf15.js"
+    "static/js/main.b6401221.js"
   ]
 }
