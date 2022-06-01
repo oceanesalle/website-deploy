@@ -8,7 +8,7 @@ const Footer = () => {
     <footer>
       <a href="#logo" className='footer__logo'>OCEANE</a>
       <ul className="permalinks">
-        <li><a href="#">Profil</a></li>
+        <li><a href="#header">Profil</a></li>
         <li><a href="#skills">Compétences</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#step">Développement</a></li>
