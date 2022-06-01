@@ -1,0 +1,187 @@
+/* header {
+  height: 100vh; 
+  padding-top: 7rem;
+  overflow: hidden; 
+}
+
+.header__container {
+  text-align: center; 
+  height: 100%; 
+  position: relative; 
+} 
+*/
+
+/* ============== HEADER SOCIALS ============== */
+/* .header__socials{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem; 
+  position: absolute; 
+  left: 0;
+  bottom: 3rem; 
+}
+
+.header__socials::after {
+  content: ""; 
+  width: 1px; 
+  height: 2rem; 
+  background: var(--color-primary); 
+}
+
+
+/* ============== PROFILEPIC ============== */
+/*.profile {
+  background: linear-gradient(var (--color-primary), transparent);
+  width: 22rem; 
+  height: 30rem; 
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0; 
+  overflow: hidden; 
+  padding: 5rem 1.5rem 1.5rem 1.5rem; 
+} */ 
+
+/* .profilegrid {
+  margin-top: 2cm;
+  display: grid;
+  grid-template-columns: 35% 50%; 
+  gap: 15%; 
+}
+
+.profile {
+  border-radius: 1.4rem;
+  position: absolute;
+  width: 30%;
+  left: 4cm;
+}
+
+
+
+
+
+/* ============== MQ (medium devices) =============== */ 
+@media screen and (max-width: 1024px) {}
+ 
+/* }
+  .profile {
+    width: 50%;
+    margin: 2rem auto 4rem; 
+  }*/
+
+/* ============== MQ (small devices) =============== */ 
+@media screen and (max-width: 600px) {}
+ /* .header__socials {
+    display: none;
+  } */
+
+
+ .header__content__titles {
+  padding-top: 5rem;
+  text-align: center; 
+}
+
+.header__content {
+  padding-top: 3.5rem; 
+}
+
+/*
+
+.header__socials {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem; 
+  position: absolute; 
+  left: 6rem; 
+  bottom: 9rem; 
+}
+
+.profile__picture {
+  width: 270px;
+  display: block;
+  margin-left: 10rem; 
+}
+
+.header__description {
+  margin-bottom: var(--mb-2); 
+}
+
+.profile__grid {
+  display: grid;
+  grid-template-columns: 42% 52%; 
+  gap: 10%;
+}
+
+*/ 
+/* ============== MQ (small devices) =============== */ 
+@media screen and (max-width: 600px) {}
+/*.header__socials {
+    display: none;
+  }
+
+  .profile__picture {
+    width: 300px;
+    order: 1; 
+    justify-self: center;
+  }
+  .header__content {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+/* ============== MQ (medium devices) =============== */ 
+@media screen and (max-width: 1024px) {}
+ 
+/* }
+  .profile {
+    width: 50%;
+    margin: 2rem auto 4rem; 
+  }*/
+
+
+.header__content {
+  display:grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%; 
+}
+
+.about__me-image {
+  border-radius: 2rem;
+  overflow: hidden;
+  margin: 2rem auto 4rem;
+}
+
+.about__content p {
+  margin: 2rem 0 2.6rem; 
+  color: var(--color-light); 
+}
+
+/* ============== MQ (small devices) =============== */ 
+@media screen and (max-width: 600px) {
+.about__me-image {
+  width: 65%;
+  margin: 0rem auto 3rem;
+}
+.about__content p {
+  margin: 1.5rem 0;
+}
+}
+
+/* ============== MQ (medium devices) =============== */ 
+@media screen and (max-width: 1024px) {
+  .header__content {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about__me-image {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+  .about__content p {
+    margin: 1rem 0 1.5rem;
+  }
+}
