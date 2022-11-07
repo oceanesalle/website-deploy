@@ -1,7 +1,6 @@
 import React from 'react'
 import './Contact.css'
 import {FiMail} from 'react-icons/fi'
-import {BsInstagram} from 'react-icons/bs'
 import {FaWhatsappSquare} from 'react-icons/fa'
 import {AiOutlineLinkedin} from 'react-icons/ai'
 import { useRef } from 'react';
@@ -23,7 +22,7 @@ const Contact = () => {
 
   return (
     <section id ='contact'>
-      <h5>Je suis disponible par mail, sms, message instagram et whatsapp</h5>
+      <h5>Je suis disponible par mail, sms et whatsapp</h5>
       <h2>Me contacter</h2>
 
       <div className="container contact__container">
@@ -33,12 +32,6 @@ const Contact = () => {
             <h4>Email</h4>
             <h5>oceanesapro@gmail.com</h5>
              <a href="mailto:oceansapro@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
-        </article>
-        <article className="contact__option">
-            <BsInstagram  className='contact__option-icon'/>
-            <h4>Instagram</h4>
-            <h5>oceansle</h5>
-            <a href="https://www.instagram.com/oceansle/" target="_blank" rel="noreferrer">Send a message</a>
         </article>
         <article className="contact__option">
             <FaWhatsappSquare className='contact__option-icon'/>

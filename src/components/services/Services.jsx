@@ -29,10 +29,6 @@ const Services = () => {
             </li>
             <li>
             <BsCheck2All className='service__list-icon'/> 
-            <p>Restauration de site existant.</p>
-            </li>
-            <li>
-            <BsCheck2All className='service__list-icon'/> 
             <p>Portfolio et CV en ligne.</p>
             </li>
             <li>

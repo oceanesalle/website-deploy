@@ -80,7 +80,7 @@ const Blog = () => {
 
           <article className="step">
           <div className="step__head">
-            <h3>5️⃣Débug et déploiement</h3>
+            <h3>5️⃣ Débug et déploiement</h3>
             </div>
 
             <ul className="step__list"> 
