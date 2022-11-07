@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import {AiOutlineInstagram} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
 
 const Footer = () => {
@@ -16,7 +15,6 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.instagram.com/oceansle/"> <AiOutlineInstagram/> </a>
         <a href="https://www.linkedin.com/in/oceanesalle/"> <AiFillLinkedin/> </a>
       </div>
 
